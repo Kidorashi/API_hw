@@ -129,7 +129,7 @@ def aver(leng):
         s = sum(leng[part])
         aver_len = s // n
         leng[part] = aver_len
-    return aver_len
+    return leng
 
 def city_len(id_comment):
     city_len = {}
