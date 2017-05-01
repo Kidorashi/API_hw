@@ -199,7 +199,7 @@ def draw2(dict, title, xlabel, ylabel):
 def draw3(dict, title, xlabel, ylabel):
     X = []
     Y = []
-    for part in dict.items():
+    for part in dict:
         Y.append(part)
         X.append(dict[part])
     plt.bar(X, Y)
